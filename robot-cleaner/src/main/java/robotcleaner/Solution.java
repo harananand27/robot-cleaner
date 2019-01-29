@@ -6,10 +6,10 @@ import lombok.Data;
 public class Solution {
 
     private int[] coords = new int[2];
-    private int patchesCleaned;
+    private int patches;
 
-    Solution(int[] coords, int patchesCleaned) {
+    Solution(int[] coords, int patches) {
         this.coords = coords;
-        this.patchesCleaned = patchesCleaned;
+        this.patches = patches;
     }
 }
